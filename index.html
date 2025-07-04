@@ -1,0 +1,501 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Aplikasi Laundry Ikhi - Unik &amp; Modern
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #f0f4ff 0%, #d9e8ff 100%);
+    }
+    /* Custom scrollbar for testimonials */
+    .scrollbar-thin::-webkit-scrollbar {
+      height: 6px;
+    }
+    .scrollbar-thin::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+      background-color: #6366f1;
+      border-radius: 10px;
+    }
+  </style>
+ </head>
+ <body class="text-gray-900">
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md shadow-lg z-50" role="navigation">
+   <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 md:py-5">
+    <a class="flex items-center space-x-3" href="#home">
+     <img alt="Logo Laundry Ikhi, icon mesin cuci modern dengan gelembung air biru" class="w-12 h-12 rounded-full border-2 border-indigo-600" height="48" src="https://storage.googleapis.com/a1aa/image/c76986a4-9365-4b15-b5ea-6015d03d77cd.jpg" width="48"/>
+     <span class="text-indigo-700 font-extrabold text-2xl tracking-wide select-none">
+      Laundry Ikhi
+     </span>
+    </a>
+    <div class="hidden md:flex space-x-10 font-semibold text-indigo-700">
+     <a class="relative group hover:text-indigo-900 transition duration-300" href="#home">
+      Beranda
+      <span class="absolute left-0 -bottom-1 w-0 group-hover:w-full h-0.5 bg-indigo-700 rounded transition-all">
+      </span>
+     </a>
+     <a class="relative group hover:text-indigo-900 transition duration-300" href="#services">
+      Layanan
+      <span class="absolute left-0 -bottom-1 w-0 group-hover:w-full h-0.5 bg-indigo-700 rounded transition-all">
+      </span>
+     </a>
+     <a class="relative group hover:text-indigo-900 transition duration-300" href="#pricing">
+      Harga
+      <span class="absolute left-0 -bottom-1 w-0 group-hover:w-full h-0.5 bg-indigo-700 rounded transition-all">
+      </span>
+     </a>
+     <a class="relative group hover:text-indigo-900 transition duration-300" href="#features">
+      Fitur
+      <span class="absolute left-0 -bottom-1 w-0 group-hover:w-full h-0.5 bg-indigo-700 rounded transition-all">
+      </span>
+     </a>
+     <a class="relative group hover:text-indigo-900 transition duration-300" href="#contact">
+      Kontak
+      <span class="absolute left-0 -bottom-1 w-0 group-hover:w-full h-0.5 bg-indigo-700 rounded transition-all">
+      </span>
+     </a>
+    </div>
+    <button aria-label="Toggle menu" class="md:hidden text-indigo-700 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-600 rounded" id="menu-btn">
+     <i class="fas fa-bars text-3xl">
+     </i>
+    </button>
+   </div>
+   <div class="hidden md:hidden bg-white/95 backdrop-blur-md shadow-lg border-t border-indigo-200" id="mobile-menu">
+    <a class="block px-6 py-4 border-b border-indigo-200 text-indigo-700 font-semibold hover:bg-indigo-100 transition" href="#home">
+     Beranda
+    </a>
+    <a class="block px-6 py-4 border-b border-indigo-200 text-indigo-700 font-semibold hover:bg-indigo-100 transition" href="#services">
+     Layanan
+    </a>
+    <a class="block px-6 py-4 border-b border-indigo-200 text-indigo-700 font-semibold hover:bg-indigo-100 transition" href="#pricing">
+     Harga
+    </a>
+    <a class="block px-6 py-4 border-b border-indigo-200 text-indigo-700 font-semibold hover:bg-indigo-100 transition" href="#features">
+     Fitur
+    </a>
+    <a class="block px-6 py-4 text-indigo-700 font-semibold hover:bg-indigo-100 transition" href="#contact">
+     Kontak
+    </a>
+   </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="pt-28 pb-20 max-w-7xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12" id="home">
+   <div class="md:w-1/2 space-y-8">
+    <h1 class="text-5xl font-extrabold text-indigo-900 leading-tight tracking-tight">
+     Laundry Ikhi
+     <br/>
+     <span class="text-indigo-600">
+      Laundry Unik &amp; Modern
+     </span>
+    </h1>
+    <p class="text-lg text-indigo-700/90">
+     Nikmati layanan laundry dengan teknologi terkini, fitur unik, dan
+        pengalaman yang menyenangkan. Mudah, cepat, dan terpercaya!
+    </p>
+    <div class="flex flex-wrap gap-4">
+     <a class="inline-flex items-center justify-center bg-indigo-600 text-white font-semibold px-8 py-3 rounded-xl shadow-lg hover:bg-indigo-700 transition" href="#services">
+      Lihat Layanan
+      <i class="fas fa-tshirt ml-2">
+      </i>
+     </a>
+     <a class="inline-flex items-center justify-center border-2 border-indigo-600 text-indigo-600 font-semibold px-8 py-3 rounded-xl hover:bg-indigo-600 hover:text-white transition" href="#features">
+      Fitur Unggulan
+      <i class="fas fa-star ml-2">
+      </i>
+     </a>
+    </div>
+   </div>
+   <div class="md:w-1/2 relative">
+    <img alt="Mesin laundry modern dengan tumpukan pakaian bersih dan gelembung sabun berwarna biru dan putih, desain futuristik dan bersih" class="rounded-3xl shadow-2xl mx-auto" height="400" src="https://storage.googleapis.com/a1aa/image/12c2b805-979f-4f16-438d-40c26be6d601.jpg" width="600"/>
+    <div aria-hidden="true" class="absolute -bottom-10 -right-10 bg-indigo-600 rounded-full w-24 h-24 flex items-center justify-center shadow-lg animate-bounce">
+     <i class="fas fa-water text-white text-3xl">
+     </i>
+    </div>
+   </div>
+  </section>
+  <!-- Services Section -->
+  <section class="max-w-7xl mx-auto px-6 py-20 bg-gradient-to-tr from-indigo-50 to-indigo-100 rounded-3xl shadow-lg" id="services">
+   <h2 class="text-4xl font-extrabold text-indigo-800 text-center mb-16 tracking-wide">
+    Layanan Unggulan Kami
+   </h2>
+   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12" role="list">
+    <article class="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <img alt="Ilustrasi layanan Wash and Fold, pakaian bersih dilipat rapi di keranjang laundry dengan warna cerah" class="rounded-full mb-6 shadow-md" height="120" src="https://storage.googleapis.com/a1aa/image/3740a5c1-260a-4517-b28f-f5e40d9f8e86.jpg" width="120"/>
+     <h3 class="text-2xl font-bold text-indigo-700 mb-3">
+      Wash &amp; Fold
+     </h3>
+     <p class="text-indigo-600">
+      Cuci dan lipat pakaian Anda dengan rapi, siap pakai tanpa repot.
+     </p>
+    </article>
+    <article class="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <img alt="Ilustrasi layanan Dry Cleaning, pakaian formal digantung dengan label bersih dan latar belakang elegan" class="rounded-full mb-6 shadow-md" height="120" src="https://storage.googleapis.com/a1aa/image/9d4374c7-e27c-481a-b8fa-ea32050e6a70.jpg" width="120"/>
+     <h3 class="text-2xl font-bold text-indigo-700 mb-3">
+      Dry Cleaning
+     </h3>
+     <p class="text-indigo-600">
+      Perawatan khusus untuk pakaian formal dan bahan sensitif.
+     </p>
+    </article>
+    <article class="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <img alt="Ilustrasi layanan Express Service, jam dengan tanda kecepatan dan pakaian bersih berwarna cerah" class="rounded-full mb-6 shadow-md" height="120" src="https://storage.googleapis.com/a1aa/image/c6c6aff7-3f14-4ea0-de99-f3c54e7eb21b.jpg" width="120"/>
+     <h3 class="text-2xl font-bold text-indigo-700 mb-3">
+      Express Service
+     </h3>
+     <p class="text-indigo-600">
+      Laundry selesai dalam 24 jam untuk kebutuhan mendesak Anda.
+     </p>
+    </article>
+    <article class="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <img alt="Ilustrasi layanan Pickup and Delivery, kurir mengantarkan pakaian laundry ke rumah pelanggan dengan latar belakang kota" class="rounded-full mb-6 shadow-md" height="120" src="https://storage.googleapis.com/a1aa/image/dc6001f8-bd32-43ba-a34e-3bd666d164da.jpg" width="120"/>
+     <h3 class="text-2xl font-bold text-indigo-700 mb-3">
+      Pickup &amp; Delivery
+     </h3>
+     <p class="text-indigo-600">
+      Jemput dan antar pakaian laundry langsung ke rumah Anda.
+     </p>
+    </article>
+    <article class="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <img alt="Ilustrasi layanan setrika, pakaian putih yang rapi dan licin di atas papan setrika dengan latar belakang cerah" class="rounded-full mb-6 shadow-md" height="120" src="https://storage.googleapis.com/a1aa/image/bac7ce36-c45a-43e5-68f0-601c653e835e.jpg" width="120"/>
+     <h3 class="text-2xl font-bold text-indigo-700 mb-3">
+      Ironing Service
+     </h3>
+     <p class="text-indigo-600">
+      Setrika rapi untuk pakaian Anda agar selalu tampak segar dan profesional.
+     </p>
+    </article>
+    <article class="bg-white rounded-2xl shadow-xl p-8 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <img alt="Ilustrasi layanan penghilangan noda, pakaian dengan noda dihilangkan menggunakan teknologi canggih dan latar belakang bersih" class="rounded-full mb-6 shadow-md" height="120" src="https://storage.googleapis.com/a1aa/image/10c30460-5e49-4230-f87f-1700f9dd75f4.jpg" width="120"/>
+     <h3 class="text-2xl font-bold text-indigo-700 mb-3">
+      Stain Removal
+     </h3>
+     <p class="text-indigo-600">
+      Teknologi khusus untuk menghilangkan noda membandel tanpa merusak kain.
+     </p>
+    </article>
+   </div>
+  </section>
+  <!-- Pricing Section -->
+  <section aria-label="Daftar harga layanan laundry" class="max-w-7xl mx-auto px-6 py-20 mt-16" id="pricing">
+   <h2 class="text-4xl font-extrabold text-indigo-800 text-center mb-16 tracking-wide">
+    Harga Terjangkau &amp; Transparan
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-12" role="list">
+    <div class="bg-gradient-to-tr from-indigo-600 to-indigo-500 text-white rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <h3 class="text-3xl font-bold mb-6">
+      Wash &amp; Fold
+     </h3>
+     <p class="text-5xl font-extrabold mb-6">
+      Rp15.000/kg
+     </p>
+     <ul class="mb-8 space-y-3 text-lg">
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Cuci &amp; Lipat
+      </li>
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Pengeringan Cepat
+      </li>
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Pickup &amp; Delivery
+      </li>
+     </ul>
+     <button class="bg-white text-indigo-600 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-indigo-50 transition" type="button">
+      Pesan Sekarang
+     </button>
+    </div>
+    <div class="bg-gradient-to-tr from-indigo-600 to-indigo-500 text-white rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <h3 class="text-3xl font-bold mb-6">
+      Dry Cleaning
+     </h3>
+     <p class="text-5xl font-extrabold mb-6">
+      Rp25.000/item
+     </p>
+     <ul class="mb-8 space-y-3 text-lg">
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Perawatan Khusus
+      </li>
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Tanpa Air
+      </li>
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Rapi &amp; Bersih
+      </li>
+     </ul>
+     <button class="bg-white text-indigo-600 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-indigo-50 transition" type="button">
+      Pesan Sekarang
+     </button>
+    </div>
+    <div class="bg-gradient-to-tr from-indigo-600 to-indigo-500 text-white rounded-3xl shadow-2xl p-10 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300" role="listitem">
+     <h3 class="text-3xl font-bold mb-6">
+      Express Service
+     </h3>
+     <p class="text-5xl font-extrabold mb-6">
+      Rp30.000/kg
+     </p>
+     <ul class="mb-8 space-y-3 text-lg">
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Selesai 24 Jam
+      </li>
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Prioritas Cepat
+      </li>
+      <li>
+       <i class="fas fa-check-circle mr-3 text-green-300">
+       </i>
+       Gratis Pickup
+      </li>
+     </ul>
+     <button class="bg-white text-indigo-600 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-indigo-50 transition" type="button">
+      Pesan Sekarang
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- Features Section -->
+  <section class="max-w-7xl mx-auto px-6 py-20 bg-indigo-50 rounded-3xl shadow-lg mt-20" id="features">
+   <h2 class="text-4xl font-extrabold text-indigo-800 text-center mb-16 tracking-wide">
+    Fitur Unik &amp; Menarik
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+    <div class="flex items-center gap-8">
+     <img alt="Tampilan antarmuka aplikasi mobile Laundry Ikhi dengan daftar layanan dan tombol pemesanan, desain modern dan user friendly" class="rounded-3xl shadow-lg w-40 h-40 object-cover" height="160" src="https://storage.googleapis.com/a1aa/image/e91ea950-1783-490b-ba3a-0035230e18dc.jpg" width="160"/>
+     <div>
+      <h3 class="text-3xl font-bold text-indigo-700 mb-3">
+       Aplikasi Mobile Intuitif
+      </h3>
+      <p class="text-indigo-700/90 text-lg leading-relaxed">
+       Pesan laundry kapan saja dan di mana saja dengan aplikasi yang
+            mudah digunakan dan cepat.
+      </p>
+     </div>
+    </div>
+    <div class="flex items-center gap-8 flex-row-reverse">
+     <img alt="Ilustrasi fitur pelacakan real-time, peta dengan titik lokasi kurir laundry bergerak, warna cerah dan modern" class="rounded-3xl shadow-lg w-40 h-40 object-cover" height="160" src="https://storage.googleapis.com/a1aa/image/eb8e111e-5b01-4ef4-cd8a-f6e02225e574.jpg" width="160"/>
+     <div>
+      <h3 class="text-3xl font-bold text-indigo-700 mb-3">
+       Pelacakan Pesanan Real-time
+      </h3>
+      <p class="text-indigo-700/90 text-lg leading-relaxed">
+       Pantau status laundry Anda mulai dari penjemputan hingga
+            pengantaran secara langsung.
+      </p>
+     </div>
+    </div>
+    <div class="flex items-center gap-8">
+     <img alt="Ilustrasi fitur pembayaran aman, kartu kredit dan ikon gembok keamanan, warna biru dan putih" class="rounded-3xl shadow-lg w-40 h-40 object-cover" height="160" src="https://storage.googleapis.com/a1aa/image/d003035b-7a2e-4fa2-175c-087db6f83d92.jpg" width="160"/>
+     <div>
+      <h3 class="text-3xl font-bold text-indigo-700 mb-3">
+       Pembayaran Aman &amp; Beragam
+      </h3>
+      <p class="text-indigo-700/90 text-lg leading-relaxed">
+       Bayar dengan berbagai metode digital yang aman dan mudah.
+      </p>
+     </div>
+    </div>
+    <div class="flex items-center gap-8 flex-row-reverse">
+     <img alt="Ilustrasi fitur loyalti dan rewards, kartu hadiah dan bintang emas, warna cerah dan menarik" class="rounded-3xl shadow-lg w-40 h-40 object-cover" height="160" src="https://storage.googleapis.com/a1aa/image/0cab0ecd-1d01-4246-be53-35634373f49a.jpg" width="160"/>
+     <div>
+      <h3 class="text-3xl font-bold text-indigo-700 mb-3">
+       Program Loyalti &amp; Rewards
+      </h3>
+      <p class="text-indigo-700/90 text-lg leading-relaxed">
+       Dapatkan poin setiap kali menggunakan layanan dan tukarkan dengan
+            diskon menarik.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Testimonials Section -->
+  <section aria-label="Testimoni pelanggan Laundry Ikhi" class="max-w-7xl mx-auto px-6 py-20 mt-20 bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-3xl shadow-2xl text-white">
+   <h2 class="text-4xl font-extrabold text-center mb-16 tracking-wide drop-shadow-lg">
+    Apa Kata Pelanggan Kami
+   </h2>
+   <div aria-label="Daftar testimoni pelanggan" class="flex overflow-x-auto gap-8 scrollbar-thin px-2 md:px-0" role="list" tabindex="0">
+    <article class="min-w-[320px] bg-indigo-800/80 rounded-3xl p-8 shadow-lg flex flex-col justify-between" role="listitem">
+     <p class="italic mb-6 text-lg leading-relaxed drop-shadow-md">
+      "Laundry Ikhi sangat membantu saya yang sibuk. Layanan pickup dan
+          delivery-nya cepat dan rapi. Aplikasinya juga mudah digunakan!"
+     </p>
+     <div class="flex items-center gap-4">
+      <img alt="Foto profil pelanggan pria muda tersenyum dengan latar belakang biru" class="rounded-full border-2 border-indigo-400" height="60" src="https://storage.googleapis.com/a1aa/image/e9e433ba-c52d-4e1d-7bb0-061b67a73b28.jpg" width="60"/>
+      <div>
+       <p class="font-bold text-lg">
+        Rizky Pratama
+       </p>
+       <p class="text-indigo-300 text-sm">
+        Pengguna Setia
+       </p>
+      </div>
+     </div>
+    </article>
+    <article class="min-w-[320px] bg-indigo-800/80 rounded-3xl p-8 shadow-lg flex flex-col justify-between" role="listitem">
+     <p class="italic mb-6 text-lg leading-relaxed drop-shadow-md">
+      "Fitur pelacakan real-time sangat membantu saya mengetahui status
+          laundry. Hasil cucinya juga selalu bersih dan wangi."
+     </p>
+     <div class="flex items-center gap-4">
+      <img alt="Foto profil pelanggan wanita dewasa tersenyum dengan latar belakang ungu" class="rounded-full border-2 border-indigo-400" height="60" src="https://storage.googleapis.com/a1aa/image/38a4deef-88fd-4e5a-4cda-3a03a1beb06a.jpg" width="60"/>
+      <div>
+       <p class="font-bold text-lg">
+        Sari Dewi
+       </p>
+       <p class="text-indigo-300 text-sm">
+        Pelanggan Baru
+       </p>
+      </div>
+     </div>
+    </article>
+    <article class="min-w-[320px] bg-indigo-800/80 rounded-3xl p-8 shadow-lg flex flex-col justify-between" role="listitem">
+     <p class="italic mb-6 text-lg leading-relaxed drop-shadow-md">
+      "Program loyalti dan rewards-nya membuat saya semakin sering pakai
+          Laundry Ikhi. Pelayanan ramah dan profesional."
+     </p>
+     <div class="flex items-center gap-4">
+      <img alt="Foto profil pelanggan pria paruh baya tersenyum dengan latar belakang hijau" class="rounded-full border-2 border-indigo-400" height="60" src="https://storage.googleapis.com/a1aa/image/25ad44ab-67bb-4054-407d-c949cbf5191f.jpg" width="60"/>
+      <div>
+       <p class="font-bold text-lg">
+        Budi Santoso
+       </p>
+       <p class="text-indigo-300 text-sm">
+        Pelanggan Setia
+       </p>
+      </div>
+     </div>
+    </article>
+   </div>
+  </section>
+  <!-- Contact Section -->
+  <section class="max-w-7xl mx-auto px-6 py-20 mt-20 rounded-3xl shadow-lg bg-white" id="contact">
+   <h2 class="text-4xl font-extrabold text-indigo-800 text-center mb-16 tracking-wide">
+    Hubungi Kami
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+    <div class="space-y-8 text-indigo-700">
+     <div>
+      <h3 class="text-2xl font-bold mb-3 flex items-center gap-3">
+       <i class="fas fa-map-marker-alt text-indigo-600">
+       </i>
+       Alamat
+      </h3>
+      <p>
+       Jl. Kebersihan No. 123, Jakarta Selatan, Indonesia
+      </p>
+     </div>
+     <div>
+      <h3 class="text-2xl font-bold mb-3 flex items-center gap-3">
+       <i class="fas fa-phone-alt text-indigo-600">
+       </i>
+       Telepon
+      </h3>
+      <p>
+       +62 812 3456 7890
+      </p>
+     </div>
+     <div>
+      <h3 class="text-2xl font-bold mb-3 flex items-center gap-3">
+       <i class="fas fa-envelope text-indigo-600">
+       </i>
+       Email
+      </h3>
+      <p>
+       support@laundryikhi.co.id
+      </p>
+     </div>
+     <div>
+      <h3 class="text-2xl font-bold mb-3 flex items-center gap-3">
+       <i class="fas fa-clock text-indigo-600">
+       </i>
+       Jam Operasional
+      </h3>
+      <p>
+       Senin - Sabtu: 08.00 - 20.00 WIB
+      </p>
+     </div>
+    </div>
+    <form action="#" aria-label="Formulir kontak Laundry Ikhi" class="space-y-6">
+     <div>
+      <label class="block mb-2 font-semibold text-indigo-700 text-lg" for="name">
+       Nama Lengkap
+      </label>
+      <input class="w-full border border-indigo-300 rounded-xl px-5 py-3 text-indigo-900 placeholder-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition" id="name" name="name" placeholder="Masukkan nama lengkap Anda" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-indigo-700 text-lg" for="email">
+       Email
+      </label>
+      <input class="w-full border border-indigo-300 rounded-xl px-5 py-3 text-indigo-900 placeholder-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition" id="email" name="email" placeholder="Masukkan email Anda" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-indigo-700 text-lg" for="message">
+       Pesan
+      </label>
+      <textarea class="w-full border border-indigo-300 rounded-xl px-5 py-3 text-indigo-900 placeholder-indigo-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 transition resize-none" id="message" name="message" placeholder="Tulis pesan atau pertanyaan Anda" required="" rows="5"></textarea>
+     </div>
+     <button class="w-full bg-indigo-600 text-white font-extrabold py-4 rounded-xl shadow-lg hover:bg-indigo-700 transition" type="submit">
+      Kirim Pesan
+     </button>
+    </form>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-indigo-900 text-indigo-300 py-8 mt-20">
+   <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+    <p class="text-sm select-none">
+     © 2024 Laundry Ikhi. Semua hak cipta dilindungi.
+    </p>
+    <div class="flex space-x-8 mt-4 md:mt-0">
+     <a aria-label="Facebook Laundry Ikhi" class="hover:text-white transition" href="#">
+      <i class="fab fa-facebook-f text-xl">
+      </i>
+     </a>
+     <a aria-label="Twitter Laundry Ikhi" class="hover:text-white transition" href="#">
+      <i class="fab fa-twitter text-xl">
+      </i>
+     </a>
+     <a aria-label="Instagram Laundry Ikhi" class="hover:text-white transition" href="#">
+      <i class="fab fa-instagram text-xl">
+      </i>
+     </a>
+     <a aria-label="LinkedIn Laundry Ikhi" class="hover:text-white transition" href="#">
+      <i class="fab fa-linkedin-in text-xl">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+ </body>
+</html>
